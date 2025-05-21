@@ -30,7 +30,7 @@ Aggiungere una barra di navigazione con NavLink, per permettere all'utente di sp
 
 Definire le rotte con Routes e Route, associando ogni percorso alla rispettiva pagina. -->
 
-📌 Milestone 2 - Setup Context API e Fetch Iniziale
+<!-- 📌 Milestone 2 - Setup Context API e Fetch Iniziale
 Creare un contesto globale per la gestione dei dati e recuperare la lista dei task dall'API.
 
 
@@ -46,10 +46,10 @@ Effettuare una richiesta GET a /tasks al caricamento dell'app, utilizzando useEf
 
 Stampare in console i dati ricevuti per verificare il corretto recupero delle informazioni.
 
-Rendere disponibile il GlobalContext.Provider in App.jsx, avvolgendo l'intera applicazione.
+Rendere disponibile il GlobalContext.Provider in App.jsx, avvolgendo l'intera applicazione. -->
+
 📌 Milestone 3 - Lista dei Task (Pagina)
 Visualizzare l'elenco dei task in una tabella e ottimizzare il rendering con React.memo().
-
 
 Recuperare la lista dei task dal GlobalContext e mostrarla nella pagina TaskList.jsx.
 
