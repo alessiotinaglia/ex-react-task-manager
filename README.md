@@ -48,7 +48,7 @@ Stampare in console i dati ricevuti per verificare il corretto recupero delle in
 
 Rendere disponibile il GlobalContext.Provider in App.jsx, avvolgendo l'intera applicazione. -->
 
-📌 Milestone 3 - Lista dei Task (Pagina)
+<!-- 📌 Milestone 3 - Lista dei Task (Pagina)
 Visualizzare l'elenco dei task in una tabella e ottimizzare il rendering con React.memo().
 
 Recuperare la lista dei task dal GlobalContext e mostrarla nella pagina TaskList.jsx.
@@ -62,9 +62,9 @@ Applicare uno stile differente alla colonna status, assegnando i seguenti colori
 "Doing" → giallo
 "Done" → verde
 
-Utilizzare React.memo() su TaskRow.jsx per ottimizzare le prestazioni ed evitare render inutili.
+Utilizzare React.memo() su TaskRow.jsx per ottimizzare le prestazioni ed evitare render inutili. -->
 
-📌 Milestone 4 - Creazione del Custom Hook useTasks() (GET)
+<!-- 📌 Milestone 4 - Creazione del Custom Hook useTasks() (GET)
 Creare un custom hook per centralizzare la gestione dei task e semplificare l'accesso ai dati.
 
 
@@ -74,7 +74,8 @@ Definire le funzioni addTask, removeTask, updateTask all'interno di useTasks(), 
 
 Rendere disponibili le funzioni e la lista dei task restituendole come valore dell'hook.
 
-Integrare useTasks() nel GlobalContext, in modo che tutti i componenti possano accedere ai task e alle funzioni di gestione.
+Integrare useTasks() nel GlobalContext, in modo che tutti i componenti possano accedere ai task e alle funzioni di gestione. -->
+
 📌 Milestone 5 - Creazione del Form per Aggiungere un Task
 Creare un form per aggiungere un task, senza ancora inviare i dati all'API.
 
