@@ -63,6 +63,7 @@ Applicare uno stile differente alla colonna status, assegnando i seguenti colori
 "Done" → verde
 
 Utilizzare React.memo() su TaskRow.jsx per ottimizzare le prestazioni ed evitare render inutili.
+
 📌 Milestone 4 - Creazione del Custom Hook useTasks() (GET)
 Creare un custom hook per centralizzare la gestione dei task e semplificare l'accesso ai dati.
 
