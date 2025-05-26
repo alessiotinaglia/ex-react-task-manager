@@ -13,11 +13,31 @@ function useTasks() {
             .catch(error => console.error('Errore nel fetch:', error));
     }, []);
 
-    function addTask(){}
+    const addTask = async (newTask) => {
+        try {
+            const response = await fetch('http://localhost:3001/tasks', {
+                method: 'POST',
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newTask)
+            });
 
-    function removeTask(){}
+            const { success, message, task } = await response.json();
 
-    function updateTask(){}
+            if (!success) {
+                throw new Error(message);
+            }
+
+            setTasks(prev => [...prev, task]);
+        } catch (error) {
+            console.error("Errore nell'aggiunta della task:", error.message);
+            throw error;
+        }
+    };
+
+
+    function removeTask() { }
+
+    function updateTask() { }
 
     return { tasks, addTask, removeTask, updateTask };
 }

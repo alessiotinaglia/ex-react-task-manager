@@ -76,7 +76,7 @@ Rendere disponibili le funzioni e la lista dei task restituendole come valore de
 
 Integrare useTasks() nel GlobalContext, in modo che tutti i componenti possano accedere ai task e alle funzioni di gestione. -->
 
-📌 Milestone 5 - Creazione del Form per Aggiungere un Task
+<!-- 📌 Milestone 5 - Creazione del Form per Aggiungere un Task
 Creare un form per aggiungere un task, senza ancora inviare i dati all'API.
 
 Aggiornare la pagina AddTask.jsx per contenere un form con i seguenti campi:
@@ -94,10 +94,10 @@ Utilizzare una costante con i caratteri vietati:
 const symbols = "!@#$%^&*()-_=+[]{}|;:'\\",.<>?/`~";
 Gestione del Submit del Form:
 
-Al click del bottone "Aggiungi Task", il form deve SOLO stampare in console l’oggetto task con i valori inseriti (NON deve ancora essere inviata la richiesta all’API).
+Al click del bottone "Aggiungi Task", il form deve SOLO stampare in console l’oggetto task con i valori inseriti (NON deve ancora essere inviata la richiesta all’API). -->
 
 
-📌 Milestone 6 - Integrazione dell'API per Aggiungere un Task (POST)
+<!-- 📌 Milestone 6 - Integrazione dell'API per Aggiungere un Task (POST)
 Collegare il form di AddTask all'API e completare la funzione addTask in useTasks().
 
 
@@ -109,11 +109,11 @@ Effettuare una chiamata API POST /tasks, inviando l’oggetto come body in forma
 La chiamata API restituisce un oggetto con la seguente struttura:
 
 In caso di successo:
-
 { success: true, task: /* la task creata */ }
-In caso di errore:
 
+In caso di errore:
 { success: false, message: "Messaggio di errore" }
+
 La funzione addTask deve controllare il valore di success nella risposta:
 
 Se success è true, aggiornare lo stato globale aggiungendo la nuova task.
@@ -121,11 +121,14 @@ Se success è false, lanciare un errore con message come testo.
 
 Modificare la gestione del Submit del Form in AddTask.jsx:
 Eseguire la funzione addTask di useTasks(), passando l’oggetto con title, description e status.
+
 Se la funzione esegue correttamente l'operazione:
 Mostrare un alert di conferma dell’avvenuta creazione della task.
 Resettare il form.
+
 Se la funzione lancia un errore:
-Mostrare un alert con il messaggio di errore ricevuto.
+Mostrare un alert con il messaggio di errore ricevuto. -->
+
 📌 Milestone 7 - Creazione della Pagina Dettaglio Task
 Creare la pagina TaskDetail.jsx, che visualizza i dettagli di un task
 
