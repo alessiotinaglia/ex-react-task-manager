@@ -129,7 +129,7 @@ Resettare il form.
 Se la funzione lancia un errore:
 Mostrare un alert con il messaggio di errore ricevuto. -->
 
-📌 Milestone 7 - Creazione della Pagina Dettaglio Task
+<!-- 📌 Milestone 7 - Creazione della Pagina Dettaglio Task
 Creare la pagina TaskDetail.jsx, che visualizza i dettagli di un task
 
 
@@ -144,10 +144,10 @@ Nome (title)
 Descrizione (description)
 Stato (status)
 Data di creazione (createdAt)
-Un bottone "Elimina Task", che per ora stampa solo "Elimino task" in console.
+Un bottone "Elimina Task", che per ora stampa solo "Elimino task" in console. -->
+
 📌 Milestone 8 - Funzione di Eliminazione Task (DELETE)
 Aggiungere la funzionalità di eliminazione di un task con una chiamata API e aggiornare lo stato.
-
 
 Completare la funzione removeTask in useTasks():
 La funzione deve ricevere un taskId e effettuare una chiamata API DELETE /tasks/:id.
@@ -172,9 +172,9 @@ Mostrare un alert di conferma dell’avvenuta eliminazione.
 Reindirizzare l’utente alla lista dei task (/).
 Se la funzione lancia un errore:
 Mostrare un alert con il messaggio di errore ricevuto.
+
 📌 Milestone 9 - Componente Modal e Conferma Eliminazione Task
 Creare un componente Modal riutilizzabile e utilizzarlo per confermare l’eliminazione di un task.
-
 
 Creare il componente Modal.jsx, che deve:
 Accettare i seguenti props:
