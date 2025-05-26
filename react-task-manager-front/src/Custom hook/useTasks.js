@@ -34,9 +34,20 @@ function useTasks() {
         }
     };
 
+    const removeTask = async taskId => {
+        const response = await fetch(`http://localhost:3001/tasks/${taskId}`, {
+            method: `DELETE`
+        });
 
-    function removeTask() { }
+        const { success, message } = await response.json();
+        if (!success) {
+            throw new Error(message);
+        }
+        setTasks(prev => prev.filter(t => t.id !== taskId))
+    }
 
+
+    
     function updateTask() { }
 
     return { tasks, addTask, removeTask, updateTask };
