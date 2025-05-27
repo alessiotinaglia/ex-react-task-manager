@@ -62,8 +62,8 @@ function Addtask() {
 
                 <label>
                     Stato
-                    <select ref={statusRef} defaultValue="To Do">
-                        <option value="To Do">To Do</option>
+                    <select ref={statusRef} defaultValue="To do">
+                        <option value="To do">To do</option>
                         <option value="Doing">Doing</option>
                         <option value="Done">Done</option>
                     </select>

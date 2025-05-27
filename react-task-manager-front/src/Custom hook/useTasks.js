@@ -46,8 +46,6 @@ function useTasks() {
         setTasks(prev => prev.filter(t => t.id !== taskId))
     }
 
-
-    
     function updateTask() { }
 
     return { tasks, addTask, removeTask, updateTask };
