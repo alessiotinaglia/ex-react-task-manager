@@ -173,7 +173,7 @@ Reindirizzare l’utente alla lista dei task (/).
 Se la funzione lancia un errore:
 Mostrare un alert con il messaggio di errore ricevuto. -->
 
-📌 Milestone 9 - Componente Modal e Conferma Eliminazione Task
+<!-- 📌 Milestone 9 - Componente Modal e Conferma Eliminazione Task
 Creare un componente Modal riutilizzabile e utilizzarlo per confermare l’eliminazione di un task.
 
 Creare il componente Modal.jsx, che deve:
@@ -189,11 +189,10 @@ Implementare i pulsanti "Annulla" (chiude la modale) e "Conferma" (esegue onConf
 
 Integrare il componente Modal in TaskDetail.jsx per confermare l'eliminazione:
 Quando l’utente clicca su "Elimina Task", deve aprirsi la modale di conferma.
-Se l’utente conferma, vengono eseguite le stesse operazioni della Milestone 8.
+Se l’utente conferma, vengono eseguite le stesse operazioni della Milestone 8. -->
 
 📌 Milestone 10 - Modale e Funzione di Modifica Task (PUT)
 Creare una modale per modificare i dettagli di un task e aggiornare i dati tramite API.
-
 
 Completare la funzione updateTask in useTasks():
 
@@ -225,7 +224,6 @@ content: un form contenente i campi del task da modificare.
 confirmText: "Salva".
 onConfirm: deve attivare il submit del form.
 
-
 💡 Importante:
 Per attivare il submit del form, dobbiamo ottenere un riferimento diretto al form all'interno del componente. Creiamo una ref con useRef() e associamola al form.
 Questo ci permette di chiamare il metodo editFormRef.current.requestSubmit() quando l'utente clicca su "Salva" nella modale, simulando il comportamento di un normale submit.
@@ -245,6 +243,8 @@ Mostrare un alert di conferma dell’avvenuta modifica.
 Chiudere la modale.
 Se la funzione lancia un errore:
 Mostrare un alert con il messaggio di errore ricevuto.
+
+
 📌 Milestone 11 - Ordinamento delle Task
 Implementare un sistema di ordinamento nella tabella delle task, permettendo all'utente di ordinare i task in base a diversi criteri.
 
