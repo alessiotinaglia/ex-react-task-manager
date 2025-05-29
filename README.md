@@ -265,7 +265,7 @@ Ordinamento per createdAt → confrontando il valore numerico della data (.getTi
 Applicare sortOrder per definire se l’ordine è crescente o decrescente. -->
 
 
-📌 Milestone 12 - Ricerca dei Task con Debounce
+<!-- 📌 Milestone 12 - Ricerca dei Task con Debounce
 Aggiungere un campo di ricerca che permette all’utente di filtrare i task in base al nome, ottimizzando le prestazioni con debounce.
 r3
 
@@ -287,7 +287,7 @@ Usare useCallback() per memorizzare la funzione di debounce e prevenire inutili 
 
 💡 Importante:
 Il debounce non funziona bene sugli input controllati.
-Rimuovere value dall’input, rendendolo non controllato, affinché il debounce possa funzionare correttamente.
+Rimuovere value dall’input, rendendolo non controllato, affinché il debounce possa funzionare correttamente. -->
 
 
 
