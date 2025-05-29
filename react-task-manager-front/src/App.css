@@ -301,5 +301,19 @@ table a {
   margin-top: 20px;
 }
 
-/*  */
+ /* stile css per la search*/
 
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.search input {
+  width: 60%;
+  max-width: 500px;
+  padding: 15px 20px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

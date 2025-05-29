@@ -62,11 +62,13 @@ function TaskList() {
     return (
         <div>
             <h1>Lista task</h1>
-            <input
-                type="text"
-                placeholder="Cerca una task"                
-                onChange={e => debounceSearch(e.target.value)}
-            />
+            <div className="search">
+                <input
+                    type="text"
+                    placeholder="Cerca una task"
+                    onChange={e => debounceSearch(e.target.value)}
+                />
+            </div>
             <table>
                 <thead>
                     <tr>
